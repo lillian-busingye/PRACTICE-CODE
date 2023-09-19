@@ -1,0 +1,72 @@
+body{
+    line-height: 1.6;
+    display: grid;
+    grid-template-rows: 10em 50vh auto 10em;
+    grid-template-columns:1fr 5fr 2fr 1fr;
+    grid-template-areas: "header header header header"
+    "hero hero hero hero"
+    ". main sidebar ."
+    "footer footer footer footer";
+    grid-column-gap: 1.5em;
+}
+header{
+    grid-area: header;
+}
+header,
+footer {
+    background: black;
+    color: yellow;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.header-title,
+.footer-title {
+    font-size: h2;
+    font-color:yellow;
+
+}
+.hero{
+    grid-area: hero;
+    background: url(coffee\ cup.webp);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-title{
+    font-size: larger;
+    margin: 0;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area:sidebar ;
+    background: darkgray;
+    padding: 1.5em;
+}
+footer{
+    grid-area: footer;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: min-content auto;
+    grid-template-areas:"img title"
+    "img content" ;
+    box-shadow: 0 0 1em rgba(0,0,0,0.5);
+}
+.card-img {
+    grid-area: img;
+}
+.card-title {
+    grid-area: title;
+}
+.card-content {
+    grid-area: content;
+}
+a{
+    color: yellow;
+    font-size: 1.1em;
+}

@@ -1,0 +1,24 @@
+body{
+    background-image: url(/coffee\ cup.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-color: aqua;  
+  color: black;
+  font: 100px;
+  margin: 300px;
+  border- width: 10px;
+  border-color:black;
+  border-style:solid;
+  padding: 50px;
+}
+div{
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+}
+span{
+    color: yellow;
+    font-size: medium;
+}
+.top-section{
+    background-color: red;

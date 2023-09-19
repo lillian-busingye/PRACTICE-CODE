@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: azure;
+    font-size: 15px;
+    display: flex;
+    text-align:left;
+    width: 50%;
+    color: white;
+
+
+}
+.sheet1{
+    background-color: orange;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.button{
+    padding: 10px 30px;
+    margin: 0;
+    border: 2px solid white;
+    border-radius: 50px;
+   
+    background: transparent;
+    color: white;
+    margin-top: 50px;
+}
+.sheet2{
+    background-color:darkblue;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.sheet3{
+    background-color: darkcyan;
+    justify-content: space-between;
+    padding: 20px 20px;
+}

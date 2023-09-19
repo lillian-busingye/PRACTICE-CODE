@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns:[page-start] 1fr[content-start] 80vw [content-end]1fr[page-end];
+    grid-template-rows:[hero-start] 50vh[info-start] 5em [hero-end]5em[info-end] auto[bottom];
+}
+.title{
+    color: white;
+    font-size:3.5rem ;
+}
+.title span {
+    font-weight: 300;
+    display: block;
+}
+.small-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.section-one{
+    background: url(coffee\ cup.webp);
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: center;
+    grid-column: 1/4;
+}
+.section-two{
+    background: lightgrey;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    grid-column: 2/3;
+
+}
+.section-three{
+    background: lightblue;
+}

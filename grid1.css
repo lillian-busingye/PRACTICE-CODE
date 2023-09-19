@@ -1,0 +1,13 @@
+.title{
+   background-color:brown;
+   color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+}
+.columns {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+}

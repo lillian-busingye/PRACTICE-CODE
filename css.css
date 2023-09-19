@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+    color: red;
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+ol{
+    list-style:lower-roman ;
+    list-style-position: inside;
+}
+ul{
+    list-style-type: circle;
+    background-color: brown;
+    padding: 40px;
+    margin: 10px;
+    list-style-position: inside;
+}

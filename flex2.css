@@ -1,0 +1,25 @@
+.nav{
+   
+   display: flex; 
+   gap: 2rem;
+   justify-content: space-between;
+   
+}
+.nav-item {
+    background-color: aqua;
+    margin: auto;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+
+    
+
+
+    
+
