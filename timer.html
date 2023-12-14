@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click "Stop" to prevent myGreeting() to execute. (You have 10 seconds)</p>
+    <button onclick="myStopFunction()">Stop!</button>
+    <h1 id ="demo"></h1>
+    <script>
+        const myTimeout = setTimeout(myGreeting, 10000);
+        function myGreeting() {
+            document.getElementById("demo").innerHTML = "Hello fellow Developers!"
+        }
+        function myStopFunction() {
+            clearTimeout(myTimeout);
+        }
+    </script>
+</body>
+</html>
